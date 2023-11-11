@@ -1,18 +1,24 @@
-# Tweeter Project
+# TinyApp Project
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a full-stack web application built with Node.js and Express that allows users to create and share tweets.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+## Final Product
 
-## Getting Started
+### Application in Action
 
-1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
-3. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
+![Application in action](https://github.com/tibirabotto/tinyapp/blob/main/img_projects/application.gif?raw=true)
+
+
 
 ## Dependencies
 
+- Node.js
 - Express
-- Node 5.10.x or above
+- Jquery
+
+
+## Getting Started
+
+- Install all dependencies (using the `npm install` command).
+- Run the development web server using the `npm run local` command.
+
