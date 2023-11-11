@@ -1,0 +1,42 @@
+.mobile header {
+  height: 400px;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #d69922;
+}
+
+@media screen and (min-width: 768px) {
+  /* CSS properties for screen sizes between 768px and 1024px */
+  .mobile header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d69922;
+
+    margin-top: 30px;
+    height: 220px;
+    width: 300px;
+    margin-left: 2em;
+
+    font-size: 18px;
+  }
+
+  .mobile header img {
+    width: 110px;
+    height: 110px;
+  }
+
+  header div:first-child {
+    padding-top: 32px;
+  }
+
+  header div:last-child {
+    padding-bottom: 16px;
+  }
+}

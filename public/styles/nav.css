@@ -1,0 +1,39 @@
+nav {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056a1;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+nav > span {
+  color: #ffffff;
+  font-family: "Bungee", sans-serif;
+}
+
+nav div span {
+  color: #ffffff;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav i {
+  color: red;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS properties for screen sizes between 768px and 1024px */
+  nav {
+    background-color: #d69922;
+  }
+}
