@@ -6,7 +6,7 @@ Tweeter is a full-stack web application built with Node.js and Express that allo
 
 ### Application in Action
 
-![Application in action](https://github.com/tibirabotto/tinyapp/blob/main/img_projects/application.gif?raw=true)
+![Application in action](https://github.com/tibirabotto/tweeter/blob/main/tweeter.gif.gif?raw=true)
 
 
 
