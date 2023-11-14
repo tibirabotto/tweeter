@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  $("#tweet-text").on("keydown", function () {
+  $("#tweet-text").on("keyup", function () {
+    console.log($("#tweet-text").val());
     let inputString = $("#tweet-text").val();
     let lenString = inputString.length;
     let char = 140 - lenString;
